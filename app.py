@@ -22,6 +22,7 @@ class LangChainCFG:
 
 config = LangChainCFG()
 application = LangChainApplication(config)
+application.source_service.init_source_vector()
 
 
 def get_file_list():
